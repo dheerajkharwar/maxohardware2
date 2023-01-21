@@ -1,0 +1,96 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.active2 {
+  background-color: #04AA6D;
+  color: white;
+}
+.products {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.myProduct {
+  width: 95%;
+  height: auto;
+  background-color: rgb(220, 229, 231);
+  box-shadow: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.product {
+  background-color: #fff;
+  display: block;
+  margin: 15px;
+  width: 35%;
+  height: auto;
+  text-align: center;
+}
+
+.product img {
+  text-align: center;
+  margin: 10px;
+  width: 70%;
+  height: auto;
+  transition: transform 1s;
+}
+.product img:hover {
+  transform: scale(1.3);
+}
+
+.disc1,
+.disc2 {
+  width: 50%;
+  float: left;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding-left: 25px;
+}
+
+h1 {
+  color: #000;
+  font-size: 3vw;
+}
+
+h2 {
+  color: rgb(90, 48, 48);
+  font-size: 2.5vw;
+}
+
+h3 {
+  font-size: 2vw;
+  animation: myanimation .5s infinite;
+}
+@keyframes myanimation {
+  from {
+    color: rgba(255, 0, 0, 0);}
+  to {
+    color: red;}
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background: #000;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px 0;
+  overflow: hidden;
+  text-align: center;
+}

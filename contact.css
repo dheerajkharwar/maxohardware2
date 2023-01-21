@@ -1,0 +1,81 @@
+
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.active3 {
+  background-color: #04AA6D;
+  color: white;
+}
+  .top_head{
+    width: 50%;
+    margin: 2% 15%;
+    height: auto;
+    background-color: black;
+    font-family: cursive;
+    font-size: 3vw;
+    text-align: center;
+    animation: myanimation .5s infinite;
+  }
+  @keyframes myanimation {
+    from {
+       color: rgba(255, 0, 0, 0);}
+    to {
+      color: rgb(255, 0, 0);}
+  }
+  .contact{
+    width: 100%;
+    height: auto;
+    padding:5% 10% 0;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    height: auto;
+    margin: 0 15%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 5px;
+    font-size: 1.5vw;
+  }
+  form td input{
+    width: 60%;
+    height: 3vh;
+  }
+  form td textarea{
+    width: 75%;
+    height: 10vh;
+  }
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  p{
+    font-size: 1.5vw;
+  }
+  .contactFree{
+    text-align: center;
+    width: 90%;
+    height: 20vh;
+    padding-top: 20px;
+    margin: 0 5%;
+  }
+  .contactFree marquee{
+    text-align: center;
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+    background: #000;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
